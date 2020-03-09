@@ -1,6 +1,6 @@
-project_name = "jenkins-pipeline-test1"
-repo = "git@github.com:raulhsj/tests-jenkins-1.git"
-repo_name = "repo"
+String project_name = 'jenkins-pipeline-test1'
+String repo = 'git@github.com:raulhsj/tests-jenkins-1.git'
+String repo_name = 'repo'
 
 pipelineJob(project_name) {
   definition {
