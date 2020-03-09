@@ -1,6 +1,6 @@
-String project_name = 'jenkins-pipeline-test1'
-String repo = 'git@github.com:raulhsj/tests-jenkins-1.git'
-String repo_name = 'repo'
+project_name = 'jenkins-pipeline-test1'
+repo = 'git@github.com:raulhsj/tests-jenkins-1.git'
+repo_name = 'repo'
 
 pipelineJob(project_name) {
   definition {
@@ -16,7 +16,7 @@ pipelineJob(project_name) {
             url(repo)
           }
         }
-        scriptPath("Jenkinsfile")
+        scriptPath("./Jenkinsfile")
       }
     }
   }
