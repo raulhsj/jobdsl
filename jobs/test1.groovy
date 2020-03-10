@@ -1,3 +1,4 @@
+// project-a/jenkins-pipeline-test1 mete el pipelineJob dentro del folder
 project_name = "project-a/jenkins-pipeline-test1"
 repo = "git@github.com:raulhsj/tests-jenkins-1.git"
 repo_name = "repo"
